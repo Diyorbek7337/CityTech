@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* headga style berildi */
+.head {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 5px solid coral;
+    background-color: #35424a;
+}
+.heading {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 0.9rem 0;
+}
+.heading span {
+    color: coral;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+.nav li {
+    padding-right: 1rem;
+}
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.nav li a:hover {
+    color: coral;
+}
+
+
+.banner {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/citytech.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    width: 60vw;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-around;
+    background-color: #35424a;
+    color: #fff;
+    padding: 1rem 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.input input {
+    padding: 7px 10px;
+    border-style: none;
+}
+.input button {
+    padding: 7px 12px;
+    background-color: red;
+    color: #fff;
+    font-family: sans-serif;
+    border-style: none;
+}
+
+.framework {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-family: sans-serif;
+}
+.angular, .react, .nodejs {
+    padding-right: 10px ;
+}
+.angular h3, .react h3, .nodejs h3 {
+    padding: 10px 0;
+}
+.angular p, .react p, .nodejs p {
+    font-size: 14px;
+}
+img {
+    width: 90px;
+    height: 85px;
+}
+.container1 {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.text1 {
+    padding-right: 1rem;
+}
+.text1 h1 {
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem;
+}
+.text1 p {
+    padding-bottom: 1.2rem;
+}
+.black {
+    padding: 0.4rem 0.5rem;
+    background-color: #35424a;
+    color: #fff;
+}
+.text2 {
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 2.8rem;
+    background-color: #35424a;
+    color: #fff;
+}
+.text2 h2 {
+    padding-bottom: 1.2rem;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.services-container h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 15px 8px;
+}
+.contain {
+    background-color: rgb(212, 215, 218);
+    margin-bottom: 5px;
+    padding: 20px 20px;
+    margin-right: 4rem;
+}
+.contain h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+    padding-left: 0;
+}
+.contain p {
+    padding-bottom: 8px;
+}
+.quote {
+    background-color: #35424a;
+    width: 23vw;
+    height: 35vh;
+    margin-bottom: 10rem;
+}
+.quote h1 {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 2rem 1rem;
+}
+label {
+    display: block;
+    color: #fff;
+    padding-left: 1rem;
+    font-family: sans-serif;
+}
+input {
+    margin-left: 1rem;
+    margin-bottom: 1px;
+    padding: 2px 7rem 2px 2px;
+    
+}
+.quote button {
+    font-size: 12px;
+    display: block;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 8px 8px;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    border-style: none;
+    cursor: pointer;
+}
+.red {
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+.red p {
+    padding: 25px 0;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+    .heading {
+        font-size: 26px;
+    }
+    .nav li {
+        font-size: 14px;
+    }
+    .container h1 {
+        font-size: 26px;
+    }
+    .container p {
+        font-size: 13px;
+    }
+    .subscribe {
+        font-size: 13px;
+    }
+    .input input {
+        padding: 5px 8px;
+    }
+    .input button {
+        padding: 5px 10px;
+    }
+    img {
+        width: 70px;
+        height: 65px;
+    }
+    .angular h3, .react h3, .nodejs h3 {
+        font-size: 14px;
+    }
+    .angular p, .react p, .nodejs p {
+        font-size: 12px;
+    }
+    .red p {
+        padding: 15px 0;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .heading {
+        font-size: 20px;
+    }
+    .nav li {
+        font-size: 12px;
+    }
+    .container h1 {
+        font-size: 20px;
+    }
+    .container p {
+        font-size: 11px;
+    }
+    .subscribe {
+        font-size: 11px;
+    }
+    .input input {
+        padding: 3px 6px;
+    }
+    .input button {
+        padding: 3px 8px;
+    }
+    img {
+        width: 50px;
+        height: 45px;
+    }
+    .angular h3, .react h3, .nodejs h3 {
+        font-size: 12px;
+    }
+    .angular p, .react p, .nodejs p {
+        font-size: 10px;
+    }
+    .red p {
+        padding: 10px 0;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 24px;
+    }
+    .nav {
+        visibility: hidden;
+    }
+    .nav li {
+        font-size: 13px;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    .container p {
+        font-size: 12px;
+    }
+    .subscribe {
+        display: none;
+        font-size: 13px;
+    }
+    .input input {
+        padding: 5px 8px;
+    }
+    .input button {
+        padding: 5px 10px;
+    }
+    img {
+        width: 60px;
+        height: 55px;
+    }
+    .angular h3, .react h3, .nodejs h3 {
+        font-size: 13px;
+    }
+    .angular p, .react p, .nodejs p {
+        font-size: 11px;
+    }
+    .red p {
+        padding: 13px 0;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .heading {
+        font-size: 20px;
+    }
+    .nav {
+        visibility: hidden;
+    }
+    .nav li {
+        font-size: 9px;
+    }
+    .container h1 {
+        font-size: 20px;
+    }
+    .container p {
+        font-size: 8px;
+    }
+    .subscribe {
+        display: none;
+        font-size: 9px;
+    }
+    .input input {
+        padding: 2px 5px;
+    }
+    .input button {
+        padding: 1px 6px;
+    }
+    img {
+        width: 50px;
+        height: 45px;
+    }
+    .angular h3, .react h3, .nodejs h3 {
+        font-size: 10px;
+    }
+    .angular p, .react p, .nodejs p {
+        font-size: 8px;
+    }
+
+    .red p {
+        padding: 10px 0;
+        font-size: 8px;
+    }
+}
